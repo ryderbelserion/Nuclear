@@ -1,10 +1,16 @@
 {
   "name": "nuclear",
+  "type": "module",
   "version": "1.0.0",
-  "description": "",
+  "description": "a web framework",
   "main": "index.js",
   "scripts": {},
-  "keywords": ["framework", "typescript"],
+
+  "keywords": [
+    "framework",
+    "typescript"
+  ],
+
   "author": "Ryder Belserion",
   "license": "MIT",
 
@@ -17,5 +23,8 @@
   },
 
   "packageManager": "pnpm@12.10.1",
-  "type": "module"
+
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
 }
