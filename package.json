@@ -1,0 +1,21 @@
+{
+  "name": "nuclear",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": ["framework", "typescript"],
+  "author": "Ryder Belserion",
+  "license": "MIT",
+
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.10.1",
+      "onFail": "download"
+    }
+  },
+
+  "packageManager": "pnpm@12.10.1",
+  "type": "module"
+}
