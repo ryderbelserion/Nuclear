@@ -3,8 +3,10 @@
   "type": "module",
   "version": "1.0.0",
   "description": "a web framework",
-  "main": "index.js",
-  "scripts": {},
+  "main": "index.ts",
+  "scripts": {
+    "start": "~/src/index.ts"
+  },
 
   "keywords": [
     "framework",
@@ -13,14 +15,6 @@
 
   "author": "Ryder Belserion",
   "license": "MIT",
-
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "12.10.1",
-      "onFail": "download"
-    }
-  },
 
   "packageManager": "pnpm@12.10.1",
 
